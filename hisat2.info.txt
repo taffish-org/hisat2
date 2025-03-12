@@ -1,0 +1,9 @@
+# <hisat2:2.2.1 | KaiyuanHan | 2025-03-12>
+ARGS
+    <else>
+        hisat2 --help
+    <main>
+        hisat2 ::*APP-ARGS*::
+RUN
+    <container:taf-hisat2-v2.2.1:ghcr.io/taffish-org/hisat2:2.2.1>
+        ::*MAIN*::
