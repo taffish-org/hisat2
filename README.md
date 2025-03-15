@@ -4,3 +4,5 @@
 - This app is from https://github.com/DaehwanKimLab/hisat2
 
 Graph-based alignment (Hierarchical Graph FM index)
+
+(For now, this app is only for Linux-AMD64, can not use on ARM64)
